@@ -70,7 +70,7 @@ li.selected > span{
 div.telefone-header{
     float: left;
     position: relative;
-    top: -8px;
+    top: -3px;
 }
 
 div.telefone-header span{
@@ -107,6 +107,7 @@ div.telefone-header span{
 .content-header .one form input[type=email]{
     width: 251px;
     height: 40px;
+    margin: 10px 0;
     border: 3px solid #ccc;
     border-radius: 130px;
     padding-left: 15px;
@@ -120,6 +121,7 @@ div.telefone-header span{
     background-color: #00daaa;
     color: white;
     cursor: pointer;
+    margin: 10px 0;
     border: 0;
     height: 40px;
     padding: 10px 30px;
@@ -146,11 +148,21 @@ div.telefone-header span{
     border: 15px solid rgba(0,0,0,0);
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 900px){
+    .content-header .one{
+        text-align: center;
+        width: 100%;
+    }
     .content-header .two{
         display: none;
     }  
+    .telefone-header{
+        display: none;
+    }
     nav.desktop{
         display: none;
     }  
+    section.header-master{
+        min-height: 400px;
+    }
 }
