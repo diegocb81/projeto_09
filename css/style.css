@@ -20,6 +20,11 @@ section.header-master{
     background-size: cover;
 }
 
+section.header-master header{
+    border-bottom: 3px solid rgba(71,83,88,0.14);
+    padding-bottom: 20px;
+}
+
 div.logo{
     float: left;
     width: 170px;
