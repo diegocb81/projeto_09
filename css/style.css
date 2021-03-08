@@ -148,6 +148,18 @@ div.telefone-header span{
     border: 15px solid rgba(0,0,0,0);
 }
 
+/*Diferenciais*/
+
+section.diferenciais{
+    padding: 40px 0;
+}
+
+section.diferenciais > .container{
+    display: flex;
+}
+
+/**/
+
 @media screen and (max-width: 900px){
     .content-header .one{
         text-align: center;
