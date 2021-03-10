@@ -186,6 +186,30 @@ section.diferenciais > .container{
 
 /**/
 
+.sobre > .container{
+    max-width: 1280px;
+}
+
+.sobre-container{
+    float: left;
+    width: 50%;
+}
+
+.sobre-container img{
+    max-width: 100%;
+}
+
+.sobre-container h2{
+    font-size: 33px;
+    font-weight: normal;
+    margin: 10px 0;
+}
+
+.sobre-container p{
+    color: black;
+    font-size: 15px;
+}
+
 @media screen and (max-width: 900px){
     .diferencial-single{
         width: 100%;
