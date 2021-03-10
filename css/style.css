@@ -222,10 +222,21 @@ section.diferenciais > .container{
 
 section.depoimento{
     width: 100%;
-    min-height: 600px;
-    padding: 40px 0;
+    padding-top: 150px;
+    padding-bottom: 300px;
     background-image: url('../img/bg_02.png');
     background-size: cover;
+    color: #2d2d2d;
+    text-align: center;
+}
+
+section.depoimento h2{
+    font-weight: normal;
+    font-size: 29px;
+}
+
+section.depoimento p{
+    font-size: 15px;
 }
 
 @media screen and (max-width: 900px){
