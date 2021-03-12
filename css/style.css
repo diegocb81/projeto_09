@@ -243,6 +243,10 @@ section.etapas{
     padding: 40px 0;
 }
 
+section.etapas > .container{
+    max-width: 1300px;
+}
+
 section.etapas h2{
     text-align: center;
     color: #3b3e42;
@@ -254,14 +258,15 @@ section.etapas h2{
 }
 
 .etapas__group img{
-    width: 70%;
+    max-width: 100%;
     float: left;
 }
 
 .etapas__group p{
     float: left;
-    width: 30%;
     color: #509d87;
+    padding-top: 90px;
+    padding-left: 30px;
 }
 
 @media screen and (max-width: 900px){
