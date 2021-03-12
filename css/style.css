@@ -239,6 +239,31 @@ section.depoimento p{
     font-size: 15px;
 }
 
+section.etapas{
+    padding: 40px 0;
+}
+
+section.etapas h2{
+    text-align: center;
+    color: #3b3e42;
+}
+
+.etapas__single{
+    float: left;
+    width: 50%;
+}
+
+.etapas__group img{
+    width: 70%;
+    float: left;
+}
+
+.etapas__group p{
+    float: left;
+    width: 30%;
+    color: #509d87;
+}
+
 @media screen and (max-width: 900px){
     .sobre-container{
         width: 100%;
