@@ -269,6 +269,22 @@ section.etapas h2{
     padding-left: 30px;
 }
 
+.etapas__group2 .circle{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 1px solid #ccc;
+    position: relative;
+    float: left;
+}
+
+.circle span{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+
 @media screen and (max-width: 900px){
     .sobre-container{
         width: 100%;
