@@ -269,6 +269,11 @@ section.etapas h2{
     padding-left: 30px;
 }
 
+.etapas__group2{
+    margin-bottom: 40px;
+    
+}
+
 .etapas__group2 .circle{
     width: 100px;
     height: 100px;
