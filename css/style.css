@@ -290,6 +290,17 @@ section.etapas h2{
     transform: translate(-50%,-50%);
 }
 
+.line{
+    position: absolute;
+    top: 100px;
+    left: 50%;
+    transform: translate(-50%,0);
+    z-index: 999;
+    height: 40px;
+    width: 1px;
+    background: black;
+}
+
 .etapas__descricao{
     float: left;
     width: calc(100% - 100px);
