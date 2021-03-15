@@ -188,6 +188,8 @@ section.diferenciais > .container{
 
 .sobre > .container{
     max-width: 1440px;
+    position: relative;
+    z-index: 2;
 }
 
 .sobre-container{
@@ -197,6 +199,8 @@ section.diferenciais > .container{
 
 .sobre-container img{
     max-width: 100%;
+    position: relative;
+    top: 30px;
 }
 
 .sobre-container h2{
@@ -228,6 +232,9 @@ section.depoimento{
     background-size: cover;
     color: #2d2d2d;
     text-align: center;
+    position: relative;
+    top: -70px;
+    z-index: 3;
 }
 
 section.depoimento h2{
@@ -244,7 +251,7 @@ section.etapas{
 }
 
 section.etapas > .container{
-    max-width: 1300px;
+    max-width: 1200px;
 }
 
 section.etapas h2{
@@ -260,6 +267,10 @@ section.etapas h2{
 .etapas__group img{
     max-width: 100%;
     float: left;
+}
+
+.etapas__single .etapas__group:nth-of-type(1) img{
+    width: 50%;
 }
 
 .etapas__group p{
@@ -318,7 +329,45 @@ section.etapas h2{
     font-size: 14px;
 }
 
+@media screen and (max-width: 1024px){
+    .etapas__single{
+        width: 100%;
+    }
+    section.etapas > .container{
+        max-width: 700px;
+    }
+    .etapas__group img{
+        max-width: 100%;
+        float: none;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .etapas__single .etapas__group:nth-of-type(1) img{
+        max-width: 100%;
+        width: auto;
+    }
+
+    .etapas__group p{
+        float: none;
+        display: block;
+        text-align: center;
+        padding-left: 0;
+        padding-top: 10px;
+        width: 100%;
+    }
+}
+
 @media screen and (max-width: 900px){
+    .sobre > .container{
+        z-index: 0;
+    }
+    .sobre-container img{
+        top: 0px;
+}
+    section.depoimento{
+        top: 0;
+    }
     .sobre-container{
         width: 100%;
     }
