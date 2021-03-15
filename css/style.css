@@ -330,6 +330,9 @@ section.etapas h2{
 }
 
 @media screen and (max-width: 1024px){
+    .etapas__group{
+        margin: 40px 0;
+    }
     .etapas__single{
         width: 100%;
     }
@@ -393,5 +396,11 @@ section.etapas h2{
     }  
     section.header-master{
         min-height: 400px;
+    }
+}
+
+@media screen and (max-width: 480px){
+    .etapas__group2{
+        display: none;
     }
 }
