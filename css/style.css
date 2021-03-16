@@ -329,6 +329,12 @@ section.etapas h2{
     font-size: 14px;
 }
 
+@media screen and (max-width: 1300px){
+    .sobre-container img{
+        top: 0px;
+    }
+}
+
 @media screen and (max-width: 1024px){
     .etapas__group{
         margin: 40px 0;
