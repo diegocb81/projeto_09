@@ -364,6 +364,10 @@ section.diferencas > .container{
     display: inline-block;
 }
 
+.item-diferencas-2{
+    margin-top: 10px;
+}
+
 .line-diferencas-1{
     position: absolute;
     left: 0;
@@ -376,6 +380,12 @@ section.diferencas > .container{
 }
 
 .item-diferencas-1 span{
+    font-weight: bold;
+    font-size: 21px;
+}
+
+.item-diferencas-2 span{
+    color: #7dd5b0;
     font-weight: bold;
     font-size: 21px;
 }
@@ -415,6 +425,17 @@ section.diferencas > .container{
         padding-left: 0;
         padding-top: 10px;
         width: 100%;
+    }
+
+    section.diferencas{
+        padding: 0;
+    }
+
+    .diferencas__single{
+        float: left;
+        width: 100%;
+        margin-bottom: 40px;
+        border-right: 0 !important;
     }
 }
 
