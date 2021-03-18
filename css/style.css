@@ -329,6 +329,57 @@ section.etapas h2{
     font-size: 14px;
 }
 
+section.diferencas{
+    padding: 50px 0;
+}
+
+section.diferencas > .container{
+    max-width: 800px;
+    text-align: center;
+}
+
+.diferencas__single{
+    float: left;
+    width: 50%;
+}
+
+.diferencas__single img{
+    width: 100px;
+    height: 50px;
+}
+
+.diferencas__single h2,
+.item-diferencas-1 span{
+    color: #a9c4b8;
+}
+
+.diferencas__single h2{
+    font-size: 30px;
+    font-weight: normal;
+}
+
+.item-diferencas-1{
+    margin-top: 10px;
+    position: relative;
+    display: inline-block;
+}
+
+.line-diferencas-1{
+    position: absolute;
+    left: 0;
+    top: 11px;
+    transform: rotate(-5deg);
+    width: 100%;
+    height: 2px;
+    background: #e89595;
+    z-index: 999;
+}
+
+.item-diferencas-1 span{
+    font-weight: bold;
+    font-size: 21px;
+}
+
 @media screen and (max-width: 1300px){
     .sobre-container img{
         top: 0px;
