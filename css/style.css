@@ -451,6 +451,12 @@ section.contato input[type=submit]{
 
 }
 
+footer{
+    background: #6cc5b2;
+    text-align: center;
+    padding: 20px 0;
+}
+
 @media screen and (max-width: 1300px){
     .sobre-container img{
         top: 0px;
