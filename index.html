@@ -6,9 +6,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/fontawesome.min.css">
+    <link rel="stylesheet" href="css/all.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+    <ul class="nav-desktop">
+        <li><span></span><a href="">Teth Care</a></li>
+        <li><span></span><a href="">Benefícios</a></li>
+        <li><span></span><a href="">Serve para mim?</a></li>
+        <li><span></span><a href="">Contato</a></li>
+    </ul><!--nav-desktop-->
     <section class="header-master">
         <header>
             <div class="container">
@@ -22,12 +30,7 @@
                 </ul>
             </nav><!--desktop-->
             <nav class="mobile">
-                <ul>
-                    <li class="selected"><span></span><a href="">Teth Care</a></li>
-                    <li><span></span><a href="">Benefícios</a></li>
-                    <li><span></span><a href="">Serve para mim?</a></li>
-                    <li><span></span><a href="">Contato</a></li>
-                </ul>
+                <h3><i class="fas fa-bars"></i></h3>   
             </nav><!--mobile-->
             <div class="telefone-header">
                 <span>(48) 3233-2777</span>
@@ -286,7 +289,7 @@
 
     <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
     <script type="text/javascript">
-        $('nav a').hover(function(){
+        $('nav.desktop a').hover(function(){
             $('nav li').removeClass('selected');
             $(this).parent().addClass('selected');
         })

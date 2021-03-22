@@ -33,23 +33,58 @@ div.logo{
     background-size: 100% 100%;
 }
 
-header nav{
+nav.mobile{
+    display: none;
+    float: right;
+    position: relative;
+    top: 10px;
+    margin-right: 10px;
+}
+
+nav.mobile h3{
+    color: white;
+    font-size: 28px;
+    cursor: pointer;
+}
+
+ul.nav-desktop{
+    display: none;
+    list-style-type: none;
+    background: #6cc5b2;
+    position: absolute;
+    left: 0;
+    top: 70px;
+    width: 100%;
+}
+
+ ul.nav-desktop li{
+    width: 100%;
+    text-align: center;
+    padding: 9px 0;
+    border-bottom: 1px solid white;
+}
+
+ul.nav-desktop a{
+    color: white;
+}
+
+header nav.desktop{
     float: left;
     padding-left: 60px;
 }
 
-header nav ul{
+header nav.desktop ul{
     list-style-type: none;
 }
 
-header li{
+header nav.desktop li{
     padding: 0 15px;
     display: inline-block;
     font-size: 16px;
     color: white;
 }
 
-header li > a{
+header nav.desktop li > a{
     color: inherit;
     text-decoration: none;
 }
@@ -539,6 +574,9 @@ footer{
     nav.desktop{
         display: none;
     }  
+    nav.mobile{
+        display: block;
+    }
     section.header-master{
         min-height: 400px;
     }
