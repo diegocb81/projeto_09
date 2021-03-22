@@ -410,7 +410,8 @@ section.contato p{
     font-size: 14px;
     border-bottom: 1px solid #509d87;
     padding: 10px 0;
-    max-width: 240px;
+    text-align: center;
+    display: block;
 }
 
 section.contato .form-group{
@@ -422,8 +423,12 @@ section.contato input[type=text]{
     height: 40px;
     border-radius: 13px;
     border: 1px solid #ccc;
-    padding-left: 8px;
+    padding-left: 12px;
     margin-bottom: 10px;
+}
+
+section.contato input[type=text]:focus{
+    outline: 0;
 }
 
 section.contato textarea{
